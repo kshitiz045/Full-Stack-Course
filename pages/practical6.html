@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+</head>
+<style>
+.column {
+  float: left;
+  width: 23%;
+  margin-bottom: 16px;
+  padding: 0 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:red;
+}
+    </style>
+<body bgcolor="lightgrey">
+    <h1 style="color:blue;text-align: justify; font-size: 42px;"><u> Practical 6:- Create Following Layout Using Css Layout Properties.</u></h1>
+    <div class="column">
+        <div class="card">
+          <img src="../img/practical5c(html).jpg" alt="img" style="width:100%;">
+          <div class="container">
+            <h2 style="font-size: 20px; text-align: center;">Introduction To HTML </h2>
+            <p>HTML stands for Hyper Text Markup Language.
+                It is used to design web pages using markup language.
+             </p>
+            
+            <a href="./practical5a(html).html" target="blank"><p><button class="button">READ MORE</button></p></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column">
+        <div class="card">
+          <img src="../img/practical5d(css).jpg" alt="img" style="width:100%;">
+          <div class="container">
+            <h2 style="font-size: 20px; text-align: center;">Introduction To Css </h2>
+            <p> Cascading Style Sheets, fondly referred to as CSS, 
+                is a simply designed language intended to simplify the
+                 process. 
+                
+             </p>
+            
+            <a href="./practical5b(css).html" target="blank"><p><button class="button">READ MORE</button></p></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column">
+        <div class="card">
+          <img src="../img/jquery.jpg" alt="img" style="width:100%;">
+          <div class="container">
+            <h2 style="font-size: 20px; text-align: center;">Introduction To JavaScript </h2>
+            <p>JavaScript is a dynamic computer programming language.  It is an interpreted programming language.
+             </p>
+            
+            <a href="./practical5c(js).html" target="blank"><p><button class="button">READ MORE</button></p></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column">
+        <div class="card">
+          <img src="../img/bootstrap.jpeg" alt="img" style="width:100%;">
+          <div class="container">
+            <h2 style="font-size: 20px; text-align: center;">Introduction To Bootstrap </h2>
+            <p>Bootstrap is the best HTML, CSS and JavaScript framework for any web developer.
+             </p>
+            
+            <a href="./practical5d(bs).html" target="blank"><p><button class="button">READ MORE</button></p></a>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
