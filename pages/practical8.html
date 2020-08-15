@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+</head>
+<style>
+     *{
+        margin: 0px;
+    }
+    .main {
+        border: 5px solid lightgray;
+        height: 1926px;
+        width: auto;
+    }
+
+
+
+    .header
+{
+    height: 65px;   
+    background-color: grey;
+   
+    width: 100%;
+    
+  position: ;
+  top: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+   
+    padding: 20px;
+}
+ul li{
+    list-style-type: none;
+    
+}
+ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  
+    
+}
+#i1{
+    border-radius: 50%;
+}
+
+    .banner {
+        border: 3px solid whitesmoke;
+        padding-top: 15px;
+    }
+
+    .top-left {
+  color: aliceblue;
+  top: 85px;
+  left: 16px;
+  position: absolute;
+}
+
+    .section-1 {
+        border: 3px solid whitesmoke;
+        background-color: white;
+        padding-bottom: 220px;
+        padding-left: 150px;
+    }
+
+    .section-1-text {
+        position: relative;
+
+        top: 1px;
+        left: 450px;
+    }
+
+    .pic {
+        float: left;
+        width: 14%;
+        padding: 5px;
+        margin-right: 90px;
+        border-radius: 90px;
+    }
+
+    .section-2 {
+        border: 3px solid white;
+        padding-bottom: 390px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-2-text {
+        position: relative;
+
+        top: 1px;
+        left: 605px;
+    }
+
+    .big-box-1 {
+        float: left;
+        width: 650px;
+        height: 370px;
+        background-color: darkgray;
+    }
+
+    .big-box-2 {
+        float: right;
+        border: 3px solid white;
+        width: 600px;
+        height: 365px;
+
+    }
+
+    .text-2 {
+        position: relative;
+        top: 0px;
+        left: 5px;
+        color: black;
+        font-size: 25px;
+    }
+
+    .box-1 {
+        float: right;
+        width: 600px;
+        height: 110px;
+
+        margin-bottom: 18px;
+        background-image: url(../img/p1.jpg);
+    }
+
+    .box-1-text {
+        position: relative;
+        bottom: 120px;
+        left: 250px;
+        color: black;
+        font-size: 15px;
+    }
+
+    .section-3 {
+        border: 3px solid white;
+        padding-bottom: 250px;
+        padding-left: 15px;
+    }
+
+    .section-3-text {
+        position: relative;
+
+        top: 1px;
+        left: 570px;
+    }
+
+    .small-box-1 {
+        float: left;
+        background-color: cadetblue;
+
+        margin-right: 90px;
+    }
+
+
+
+    .column {
+        float: left;
+        width: 23%;
+        margin-bottom: 16px;
+        padding: 0 10px;
+        height: 25%;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:red;
+}
+
+    .section-4 {
+        border: 3px solid white;
+        padding-bottom: 15px;
+    }
+
+    .footer {
+        width: auto;
+        height: 70px;
+        background-color: lightpink;
+    }
+
+    .footer-text {
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+        top: 5px;
+    }
+
+    .section-4-text {
+        position: relative;
+
+        top: 1px;
+        left: 625px;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .header,
+        .banner,
+        .section-1,
+        .section-2,
+        .section-3,
+        .section-4,
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="header" id="home">
+            <ul>
+                <li>
+                    <a href="#home"> HOME</a>
+                </li>
+                <li>
+                   <a href="#About"> ABOUT US</a>
+               </li>
+               <li>
+                   <a href="#team"> TEAM</a>
+               </li>
+               <li>
+                   <a href="#tech"> TECHNOLOGIES</a>
+               </li>
+               <li>
+                   <a href="#contact">CONTACT</a>
+               </li>
+            </ul>
+           </div>
+
+        <div class="banner">
+            <img src="../img/banner.jpg" alt="Laptop pic" style="width: 100%;">
+            <div class="top-left" style="font-size: 50px;">Practical-8</div>
+        </div>
+
+        <div class="section-1" id="team">
+            <h1 class="section-1-text">Team Members</h1>
+
+            <img src="../img/avatar1.png" alt="Avatar pic" class="pic">
+            <img src="../img/avatar2.png" alt="Avatar pic" class="pic">
+            <img src="../img/avatar3.png" alt="Avatar pic" class="pic">
+            <img src="../img/avatar4.png" alt="Avatar pic" class="pic">
+
+        </div>
+
+        <div class="section-2" id="About">
+            <h1 class="section-2-text">About Us</h1>
+            <div class="big-box-1">
+                <h1 class="text-2">About Projects</h1>
+                <p class="text-2" style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Animi totam molestias dolores maiores architecto perspiciatis, at optio necessitatibus minima unde!
+                    Minus facilis est modi voluptatibus, maxime animi laudantium, saepe veniam obcaecati laborum
+                    necessitatibus exercitationem iure? A atque delectus minus animi obcaecati ducimus quae itaque nobis
+                    voluptas harum laudantium ipsa magnam nemo voluptates est laborum architecto veritatis nostrum odio,
+                    rerum doloribus illo! Rerum, ullam distinctio accusamus voluptatibus labore sit tenetur sequi sint
+                    illo autem perspiciatis dolor tempore aperiam quas? Inventore nobis porro ad soluta id ea
+                    repellendus vitae est exercitationem eaque veniam, eligendi earum. Minima qui nesciunt expedita sunt
+                    fugiat earum.</p>
+            </div>
+            <div class="big-box-2">
+                <div class="box-1">
+
+                    <img src="../img/p1.jpg" alt="project-1-pic" style="width: 100%; height: 110px;">
+                    <h1 class="box-1-text">Project-1</h1>
+                </div>
+
+                <div class="box-1">
+
+                    <img src="../img/p2.jpeg" alt="project-2-pic" style="width: 100%; height: 110px;">
+                    <h1 class="box-1-text">Project-2</h1>
+                </div>
+
+                <div class="box-1">
+
+                    <img src="../img/p3.jpg" alt="project-3-pic" style="width: 100%; height: 110px;">
+                    <h1 class="box-1-text">Project-3</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-3" id="tech">
+            <h1 class="section-3-text">Technologies Used</h1>
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="../img/html1.png" alt="img" style="width:100%;">
+                    <div class="container">
+                        <h2 style="font-size: 20px; text-align: center;">Introduction To Html</h2>
+                        <p></p>HTML stands for Hyper Text Markup Language.
+                            It is used to design web pages using markup language.
+                        </p>
+
+                        <a href="practical5a.html" target="blank">
+                            <p><button class="button">READ MORE</button></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="../img/css.jpeg" alt="img" style="width:100%;">
+                    <div class="container">
+                        <h2 style="font-size: 20px; text-align: center;">Introduction To Css </h2>
+                        <p> Cascading Style Sheets, fondly referred to as CSS,
+                            is a simply designed language intended to simplify the
+                            process.
+                        </p>
+
+                        <a href="practical5b.html" target="blank">
+                            <p><button class="button">READ MORE</button></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="../img/practical5e(js).jpg" alt="img" style="width:100%;">
+                    <div class="container">
+                        <h2 style="font-size: 20px; text-align: center;">Introduction To JAvaScript </h2>
+                        <p>JavaScript is a dynamic computer programming language.It is an interpreted programming
+                            language.</p>
+
+                        <a href="practical5c.html" target="blank">
+                            <p><button class="button">READ MORE</button></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="../img/bs4_3.jpeg" alt="img" style="width:100%;">
+                    <div class="container">
+                        <h2 style="font-size: 20px; text-align: center;">Introduction To Bootstrap </h2>
+                        <p>Bootstrap is the best HTML, CSS and JavaScript framework for any web developer.
+                        </p>
+
+                        <a href="practical5d.html" target="blank">
+                            <p><button class="button">READ MORE</button></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-4" id="contact">
+            <h1 class="section-4-text">Contact</h1>
+            <div class="footer">
+                <p class="footer-text">Website Template for Practical-8</p>
+                <a href="#home"><p style="font-size: 10px; text-align: center; top:25px;">BacktoTop</p></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
